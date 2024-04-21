@@ -14,3 +14,16 @@ SQLitePCLRaw.lib.e_sqlite3.2.1.6
 SQLitePCLRaw.provider.e_sqlite3.2.1.6
 System.Memory.4.5.3
 ```
+
+## Results
+
+```
+Time to insert 1000000 records: 11795 ms
+Time to read 1000000 records: 573 ms
+
+Time to insert 1000000 records: 11841 ms
+Time to read 1000000 records: 550 ms
+
+Time to insert 1000000 records: 11700 ms
+Time to read 1000000 records: 627 ms
+```
